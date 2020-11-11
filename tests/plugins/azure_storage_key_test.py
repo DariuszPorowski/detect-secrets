@@ -3,7 +3,7 @@ import pytest
 from detect_secrets.plugins.azure_storage_key import AzureStorageKeyDetector
 
 
-class AzureStorageKeyDetector:
+class TestAzureStorageKeyDetector:
 
     @pytest.mark.parametrize(
         'payload, should_flag',
